@@ -88,9 +88,9 @@ plt.close()
 
 models = {
     "Linear Regression": LinearRegression(),
-    "Random Forest": RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1),
-    "Gradient Boosting": GradientBoostingRegressor(n_estimators=200, random_state=42),
-    "XGBoost": xgb.XGBRegressor(n_estimators=200, random_state=42, n_jobs=-1, objective='reg:squarederror')
+    "Random Forest": RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=-1),
+    "Gradient Boosting": GradientBoostingRegressor(n_estimators=100, random_state=42),
+    "XGBoost": xgb.XGBRegressor(n_estimators=100, random_state=42, n_jobs=-1, objective='reg:squarederror')
 }
 
 results = {}
